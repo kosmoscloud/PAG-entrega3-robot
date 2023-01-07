@@ -146,29 +146,29 @@ function initTextures(){
   loader = new THREE.TextureLoader();
 
   //texturas del suelo
-  floortextures.push(loader.load('textures/floor/BaseTexture.jpg'));
-  floortextures.push(loader.load('textures/floor/AmbientOcclusionMap.jpg'));
-  floortextures.push(loader.load('textures/floor/NormalMap.jpg'));
-  floortextures.push(loader.load('textures/floor/RoughnessMap.jpg'));
-  floortextures.push(loader.load('textures/floor/HeightMap.png'));
+  floortextures.push(loader.load('./textures/floor/BaseTexture.jpg'));
+  floortextures.push(loader.load('./textures/floor/AmbientOcclusionMap.jpg'));
+  floortextures.push(loader.load('./textures/floor/NormalMap.jpg'));
+  floortextures.push(loader.load('./textures/floor/RoughnessMap.jpg'));
+  floortextures.push(loader.load('./textures/floor/HeightMap.png'));
 
   //texturas de la rueda
-  wheeltextures.push(loader.load('textures/wheel/BaseTexture.jpg'));
-  wheeltextures.push(loader.load('textures/wheel/MetalnessMap.jpg'));
-  wheeltextures.push(loader.load('textures/wheel/NormalMap.jpg'));
-  wheeltextures.push(loader.load('textures/wheel/RoughnessMap.jpg'));
+  wheeltextures.push(loader.load('./textures/wheel/BaseTexture.jpg'));
+  wheeltextures.push(loader.load('./textures/wheel/MetalnessMap.jpg'));
+  wheeltextures.push(loader.load('./textures/wheel/NormalMap.jpg'));
+  wheeltextures.push(loader.load('./textures/wheel/RoughnessMap.jpg'));
 
   //texturas de la cabeza
-  headtextures.push(loader.load('textures/head/BaseTexture.jpg'));
-  headtextures.push(loader.load('textures/head/AmbientOcclusionMap.jpg'));
-  headtextures.push(loader.load('textures/head/NormalMap.jpg'));
-  headtextures.push(loader.load('textures/head/HeightMap.jpg'));
+  headtextures.push(loader.load('./textures/head/BaseTexture.jpg'));
+  headtextures.push(loader.load('./textures/head/AmbientOcclusionMap.jpg'));
+  headtextures.push(loader.load('./textures/head/NormalMap.jpg'));
+  headtextures.push(loader.load('./textures/head/HeightMap.jpg'));
 
   //texturas del cilindro
-  cylindertextures.push(loader.load('textures/cylinder/BaseTexture.jpg'));
-  cylindertextures.push(loader.load('textures/cylinder/AmbientOcclusionMap.jpg'));
-  cylindertextures.push(loader.load('textures/cylinder/HeightMap.jpg'));
-  cylindertextures.push(loader.load('textures/cylinder/NormalMap.jpg'));
+  cylindertextures.push(loader.load('./textures/cylinder/BaseTexture.jpg'));
+  cylindertextures.push(loader.load('./textures/cylinder/AmbientOcclusionMap.jpg'));
+  cylindertextures.push(loader.load('./textures/cylinder/HeightMap.jpg'));
+  cylindertextures.push(loader.load('./ textures/cylinder/NormalMap.jpg'));
 
   //configuraciones de texturas
   floortextures.forEach(texture => {
